@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B75B7E9E158F91B2009A2EA8 /* HPagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75B7E9D158F91B2009A2EA8 /* HPagingViewController.m */; };
+		B75B7EA21591ADA2009A2EA8 /* VPagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75B7EA11591ADA2009A2EA8 /* VPagingViewController.m */; };
+		B75B7EA9159316BB009A2EA8 /* HPaddingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75B7EA8159316BB009A2EA8 /* HPaddingPageViewController.m */; };
+		B75B7EAC15931863009A2EA8 /* VPaddingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75B7EAB15931863009A2EA8 /* VPaddingPageViewController.m */; };
+		B7C21376158C1B8500B4F331 /* 11.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B7C21367158C1B8500B4F331 /* 11.JPG */; };
+		B7C21377158C1B8500B4F331 /* 12.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B7C21368158C1B8500B4F331 /* 12.JPG */; };
+		B7C21378158C1B8500B4F331 /* 13.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B7C21369158C1B8500B4F331 /* 13.JPG */; };
+		B7C21379158C1B8500B4F331 /* 14.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B7C2136A158C1B8500B4F331 /* 14.JPG */; };
+		B7C2137A158C1B8500B4F331 /* 15.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B7C2136B158C1B8500B4F331 /* 15.JPG */; };
+		B7C2137B158C1B8500B4F331 /* 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B7C2136C158C1B8500B4F331 /* 2.JPG */; };
+		B7C2137C158C1B8500B4F331 /* 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B7C2136D158C1B8500B4F331 /* 3.JPG */; };
+		B7C2137D158C1B8500B4F331 /* 4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B7C2136E158C1B8500B4F331 /* 4.JPG */; };
+		B7C2137E158C1B8500B4F331 /* 5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B7C2136F158C1B8500B4F331 /* 5.JPG */; };
+		B7C2137F158C1B8500B4F331 /* 6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B7C21370158C1B8500B4F331 /* 6.JPG */; };
+		B7C21380158C1B8500B4F331 /* 7.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B7C21371158C1B8500B4F331 /* 7.JPG */; };
+		B7C21381158C1B8500B4F331 /* 8.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B7C21372158C1B8500B4F331 /* 8.JPG */; };
+		B7C21382158C1B8500B4F331 /* 9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B7C21373158C1B8500B4F331 /* 9.JPG */; };
+		B7C21387158C1F8500B4F331 /* 10.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B7C21385158C1F8500B4F331 /* 10.JPG */; };
+		B7C21389158C224900B4F331 /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B7C21388158C224900B4F331 /* 1.JPG */; };
+		B7C454941578D025003FC537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C454931578D025003FC537 /* UIKit.framework */; };
+		B7C454961578D025003FC537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C454951578D025003FC537 /* Foundation.framework */; };
+		B7C454981578D025003FC537 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C454971578D025003FC537 /* CoreGraphics.framework */; };
+		B7C4549E1578D025003FC537 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7C4549C1578D025003FC537 /* InfoPlist.strings */; };
+		B7C454A01578D025003FC537 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C4549F1578D025003FC537 /* main.m */; };
+		B7E7E18B158F89C000F5BE10 /* InfinitePagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E7E18A158F89C000F5BE10 /* InfinitePagingView.m */; };
+		B7E7E190158F89D900F5BE10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E7E18D158F89D900F5BE10 /* AppDelegate.m */; };
+		B7E7E194158F8B6200F5BE10 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E7E193158F8B6200F5BE10 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B75B7E9C158F91B2009A2EA8 /* HPagingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPagingViewController.h; sourceTree = "<group>"; };
+		B75B7E9D158F91B2009A2EA8 /* HPagingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPagingViewController.m; sourceTree = "<group>"; };
+		B75B7EA01591ADA2009A2EA8 /* VPagingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPagingViewController.h; sourceTree = "<group>"; };
+		B75B7EA11591ADA2009A2EA8 /* VPagingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPagingViewController.m; sourceTree = "<group>"; };
+		B75B7EA7159316BB009A2EA8 /* HPaddingPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPaddingPageViewController.h; sourceTree = "<group>"; };
+		B75B7EA8159316BB009A2EA8 /* HPaddingPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPaddingPageViewController.m; sourceTree = "<group>"; };
+		B75B7EAA15931863009A2EA8 /* VPaddingPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPaddingPageViewController.h; sourceTree = "<group>"; };
+		B75B7EAB15931863009A2EA8 /* VPaddingPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPaddingPageViewController.m; sourceTree = "<group>"; };
+		B7C21367158C1B8500B4F331 /* 11.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.JPG; sourceTree = "<group>"; };
+		B7C21368158C1B8500B4F331 /* 12.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.JPG; sourceTree = "<group>"; };
+		B7C21369158C1B8500B4F331 /* 13.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.JPG; sourceTree = "<group>"; };
+		B7C2136A158C1B8500B4F331 /* 14.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.JPG; sourceTree = "<group>"; };
+		B7C2136B158C1B8500B4F331 /* 15.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.JPG; sourceTree = "<group>"; };
+		B7C2136C158C1B8500B4F331 /* 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.JPG; sourceTree = "<group>"; };
+		B7C2136D158C1B8500B4F331 /* 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.JPG; sourceTree = "<group>"; };
+		B7C2136E158C1B8500B4F331 /* 4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.JPG; sourceTree = "<group>"; };
+		B7C2136F158C1B8500B4F331 /* 5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.JPG; sourceTree = "<group>"; };
+		B7C21370158C1B8500B4F331 /* 6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.JPG; sourceTree = "<group>"; };
+		B7C21371158C1B8500B4F331 /* 7.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.JPG; sourceTree = "<group>"; };
+		B7C21372158C1B8500B4F331 /* 8.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.JPG; sourceTree = "<group>"; };
+		B7C21373158C1B8500B4F331 /* 9.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.JPG; sourceTree = "<group>"; };
+		B7C21385158C1F8500B4F331 /* 10.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.JPG; sourceTree = "<group>"; };
+		B7C21388158C224900B4F331 /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
+		B7C4548F1578D025003FC537 /* InfinitePagingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinitePagingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C454931578D025003FC537 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B7C454951578D025003FC537 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7C454971578D025003FC537 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B7C4549B1578D025003FC537 /* InfinitePagingView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfinitePagingView-Info.plist"; sourceTree = "<group>"; };
+		B7C4549D1578D025003FC537 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7C4549F1578D025003FC537 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7C454A11578D025003FC537 /* InfinitePagingView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InfinitePagingView-Prefix.pch"; sourceTree = "<group>"; };
+		B7E7E189158F89C000F5BE10 /* InfinitePagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfinitePagingView.h; sourceTree = "<group>"; };
+		B7E7E18A158F89C000F5BE10 /* InfinitePagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfinitePagingView.m; sourceTree = "<group>"; };
+		B7E7E18C158F89D900F5BE10 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7E7E18D158F89D900F5BE10 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7E7E192158F8B6200F5BE10 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B7E7E193158F8B6200F5BE10 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7C4548C1578D025003FC537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C454941578D025003FC537 /* UIKit.framework in Frameworks */,
+				B7C454961578D025003FC537 /* Foundation.framework in Frameworks */,
+				B7C454981578D025003FC537 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7C21364158C1B8500B4F331 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B7C21388158C224900B4F331 /* 1.JPG */,
+				B7C21385158C1F8500B4F331 /* 10.JPG */,
+				B7C21367158C1B8500B4F331 /* 11.JPG */,
+				B7C21368158C1B8500B4F331 /* 12.JPG */,
+				B7C21369158C1B8500B4F331 /* 13.JPG */,
+				B7C2136A158C1B8500B4F331 /* 14.JPG */,
+				B7C2136B158C1B8500B4F331 /* 15.JPG */,
+				B7C2136C158C1B8500B4F331 /* 2.JPG */,
+				B7C2136D158C1B8500B4F331 /* 3.JPG */,
+				B7C2136E158C1B8500B4F331 /* 4.JPG */,
+				B7C2136F158C1B8500B4F331 /* 5.JPG */,
+				B7C21370158C1B8500B4F331 /* 6.JPG */,
+				B7C21371158C1B8500B4F331 /* 7.JPG */,
+				B7C21372158C1B8500B4F331 /* 8.JPG */,
+				B7C21373158C1B8500B4F331 /* 9.JPG */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B7C454841578D025003FC537 = {
+			isa = PBXGroup;
+			children = (
+				B7E7E188158F89C000F5BE10 /* Classes */,
+				B7C454991578D025003FC537 /* InfinitePagingView */,
+				B7C454921578D025003FC537 /* Frameworks */,
+				B7C454901578D025003FC537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7C454901578D025003FC537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7C4548F1578D025003FC537 /* InfinitePagingView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7C454921578D025003FC537 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7C454931578D025003FC537 /* UIKit.framework */,
+				B7C454951578D025003FC537 /* Foundation.framework */,
+				B7C454971578D025003FC537 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7C454991578D025003FC537 /* InfinitePagingView */ = {
+			isa = PBXGroup;
+			children = (
+				B7E7E18C158F89D900F5BE10 /* AppDelegate.h */,
+				B7E7E18D158F89D900F5BE10 /* AppDelegate.m */,
+				B7E7E192158F8B6200F5BE10 /* RootViewController.h */,
+				B7E7E193158F8B6200F5BE10 /* RootViewController.m */,
+				B75B7E9C158F91B2009A2EA8 /* HPagingViewController.h */,
+				B75B7E9D158F91B2009A2EA8 /* HPagingViewController.m */,
+				B75B7EA01591ADA2009A2EA8 /* VPagingViewController.h */,
+				B75B7EA11591ADA2009A2EA8 /* VPagingViewController.m */,
+				B75B7EA7159316BB009A2EA8 /* HPaddingPageViewController.h */,
+				B75B7EA8159316BB009A2EA8 /* HPaddingPageViewController.m */,
+				B75B7EAA15931863009A2EA8 /* VPaddingPageViewController.h */,
+				B75B7EAB15931863009A2EA8 /* VPaddingPageViewController.m */,
+				B7C21364158C1B8500B4F331 /* images */,
+				B7C4549A1578D025003FC537 /* Supporting Files */,
+			);
+			path = InfinitePagingView;
+			sourceTree = "<group>";
+		};
+		B7C4549A1578D025003FC537 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7C4549B1578D025003FC537 /* InfinitePagingView-Info.plist */,
+				B7C4549C1578D025003FC537 /* InfoPlist.strings */,
+				B7C4549F1578D025003FC537 /* main.m */,
+				B7C454A11578D025003FC537 /* InfinitePagingView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7E7E188158F89C000F5BE10 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B7E7E189158F89C000F5BE10 /* InfinitePagingView.h */,
+				B7E7E18A158F89C000F5BE10 /* InfinitePagingView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7C4548E1578D025003FC537 /* InfinitePagingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7C454B01578D025003FC537 /* Build configuration list for PBXNativeTarget "InfinitePagingView" */;
+			buildPhases = (
+				B7C4548B1578D025003FC537 /* Sources */,
+				B7C4548C1578D025003FC537 /* Frameworks */,
+				B7C4548D1578D025003FC537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfinitePagingView;
+			productName = InfinitePagingView;
+			productReference = B7C4548F1578D025003FC537 /* InfinitePagingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7C454861578D025003FC537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B7C454891578D025003FC537 /* Build configuration list for PBXProject "InfinitePagingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7C454841578D025003FC537;
+			productRefGroup = B7C454901578D025003FC537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7C4548E1578D025003FC537 /* InfinitePagingView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7C4548D1578D025003FC537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C4549E1578D025003FC537 /* InfoPlist.strings in Resources */,
+				B7C21376158C1B8500B4F331 /* 11.JPG in Resources */,
+				B7C21377158C1B8500B4F331 /* 12.JPG in Resources */,
+				B7C21378158C1B8500B4F331 /* 13.JPG in Resources */,
+				B7C21379158C1B8500B4F331 /* 14.JPG in Resources */,
+				B7C2137A158C1B8500B4F331 /* 15.JPG in Resources */,
+				B7C2137B158C1B8500B4F331 /* 2.JPG in Resources */,
+				B7C2137C158C1B8500B4F331 /* 3.JPG in Resources */,
+				B7C2137D158C1B8500B4F331 /* 4.JPG in Resources */,
+				B7C2137E158C1B8500B4F331 /* 5.JPG in Resources */,
+				B7C2137F158C1B8500B4F331 /* 6.JPG in Resources */,
+				B7C21380158C1B8500B4F331 /* 7.JPG in Resources */,
+				B7C21381158C1B8500B4F331 /* 8.JPG in Resources */,
+				B7C21382158C1B8500B4F331 /* 9.JPG in Resources */,
+				B7C21387158C1F8500B4F331 /* 10.JPG in Resources */,
+				B7C21389158C224900B4F331 /* 1.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7C4548B1578D025003FC537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C454A01578D025003FC537 /* main.m in Sources */,
+				B7E7E18B158F89C000F5BE10 /* InfinitePagingView.m in Sources */,
+				B7E7E190158F89D900F5BE10 /* AppDelegate.m in Sources */,
+				B7E7E194158F8B6200F5BE10 /* RootViewController.m in Sources */,
+				B75B7E9E158F91B2009A2EA8 /* HPagingViewController.m in Sources */,
+				B75B7EA21591ADA2009A2EA8 /* VPagingViewController.m in Sources */,
+				B75B7EA9159316BB009A2EA8 /* HPaddingPageViewController.m in Sources */,
+				B75B7EAC15931863009A2EA8 /* VPaddingPageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7C4549C1578D025003FC537 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7C4549D1578D025003FC537 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7C454AE1578D025003FC537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7C454AF1578D025003FC537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7C454B11578D025003FC537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfinitePagingView/InfinitePagingView-Prefix.pch";
+				INFOPLIST_FILE = "InfinitePagingView/InfinitePagingView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B7C454B21578D025003FC537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfinitePagingView/InfinitePagingView-Prefix.pch";
+				INFOPLIST_FILE = "InfinitePagingView/InfinitePagingView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7C454891578D025003FC537 /* Build configuration list for PBXProject "InfinitePagingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C454AE1578D025003FC537 /* Debug */,
+				B7C454AF1578D025003FC537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7C454B01578D025003FC537 /* Build configuration list for PBXNativeTarget "InfinitePagingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C454B11578D025003FC537 /* Debug */,
+				B7C454B21578D025003FC537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7C454861578D025003FC537 /* Project object */;
+}
