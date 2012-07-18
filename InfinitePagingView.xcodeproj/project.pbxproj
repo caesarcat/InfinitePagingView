@@ -28,7 +28,6 @@
 		B729686315B6473300686B64 /* 9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B729684515B6473300686B64 /* 9.JPG */; };
 		B729686415B6473300686B64 /* InfinitePagingView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B729684615B6473300686B64 /* InfinitePagingView-Info.plist */; };
 		B729686515B6473300686B64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B729684815B6473300686B64 /* main.m */; };
-		B729686615B6473300686B64 /* NestedPagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B729684A15B6473300686B64 /* NestedPagingViewController.m */; };
 		B729686715B6473300686B64 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B729684C15B6473300686B64 /* RootViewController.m */; };
 		B729686815B6473300686B64 /* VPaddingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B729684E15B6473300686B64 /* VPaddingPageViewController.m */; };
 		B729686915B6473300686B64 /* VPagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B729685015B6473300686B64 /* VPagingViewController.m */; };
@@ -64,8 +63,6 @@
 		B729684615B6473300686B64 /* InfinitePagingView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InfinitePagingView-Info.plist"; sourceTree = "<group>"; };
 		B729684715B6473300686B64 /* InfinitePagingView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "InfinitePagingView-Prefix.pch"; sourceTree = "<group>"; };
 		B729684815B6473300686B64 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B729684915B6473300686B64 /* NestedPagingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestedPagingViewController.h; sourceTree = "<group>"; };
-		B729684A15B6473300686B64 /* NestedPagingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestedPagingViewController.m; sourceTree = "<group>"; };
 		B729684B15B6473300686B64 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		B729684C15B6473300686B64 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		B729684D15B6473300686B64 /* VPaddingPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPaddingPageViewController.h; sourceTree = "<group>"; };
@@ -99,18 +96,16 @@
 			children = (
 				B729682E15B6473300686B64 /* AppDelegate.h */,
 				B729682F15B6473300686B64 /* AppDelegate.m */,
-				B729683215B6473300686B64 /* HPaddingPageViewController.h */,
-				B729683315B6473300686B64 /* HPaddingPageViewController.m */,
-				B729683415B6473300686B64 /* HPagingViewController.h */,
-				B729683515B6473300686B64 /* HPagingViewController.m */,
-				B729684915B6473300686B64 /* NestedPagingViewController.h */,
-				B729684A15B6473300686B64 /* NestedPagingViewController.m */,
 				B729684B15B6473300686B64 /* RootViewController.h */,
 				B729684C15B6473300686B64 /* RootViewController.m */,
-				B729684D15B6473300686B64 /* VPaddingPageViewController.h */,
-				B729684E15B6473300686B64 /* VPaddingPageViewController.m */,
+				B729683415B6473300686B64 /* HPagingViewController.h */,
+				B729683515B6473300686B64 /* HPagingViewController.m */,
 				B729684F15B6473300686B64 /* VPagingViewController.h */,
 				B729685015B6473300686B64 /* VPagingViewController.m */,
+				B729683215B6473300686B64 /* HPaddingPageViewController.h */,
+				B729683315B6473300686B64 /* HPaddingPageViewController.m */,
+				B729684D15B6473300686B64 /* VPaddingPageViewController.h */,
+				B729684E15B6473300686B64 /* VPaddingPageViewController.m */,
 				B729683615B6473300686B64 /* images */,
 				B729686A15B6478C00686B64 /* Supporting Files */,
 			);
@@ -269,7 +264,6 @@
 				B729685315B6473300686B64 /* HPaddingPageViewController.m in Sources */,
 				B729685415B6473300686B64 /* HPagingViewController.m in Sources */,
 				B729686515B6473300686B64 /* main.m in Sources */,
-				B729686615B6473300686B64 /* NestedPagingViewController.m in Sources */,
 				B729686715B6473300686B64 /* RootViewController.m in Sources */,
 				B729686815B6473300686B64 /* VPaddingPageViewController.m in Sources */,
 				B729686915B6473300686B64 /* VPagingViewController.m in Sources */,
