@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B729685115B6473300686B64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B729682F15B6473300686B64 /* AppDelegate.m */; };
-		B729685215B6473300686B64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B729683015B6473300686B64 /* InfoPlist.strings */; };
 		B729685315B6473300686B64 /* HPaddingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B729683315B6473300686B64 /* HPaddingPageViewController.m */; };
 		B729685415B6473300686B64 /* HPagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B729683515B6473300686B64 /* HPagingViewController.m */; };
 		B729685515B6473300686B64 /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B729683715B6473300686B64 /* 1.JPG */; };
@@ -26,11 +25,11 @@
 		B729686115B6473300686B64 /* 7.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B729684315B6473300686B64 /* 7.JPG */; };
 		B729686215B6473300686B64 /* 8.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B729684415B6473300686B64 /* 8.JPG */; };
 		B729686315B6473300686B64 /* 9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B729684515B6473300686B64 /* 9.JPG */; };
-		B729686415B6473300686B64 /* InfinitePagingView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B729684615B6473300686B64 /* InfinitePagingView-Info.plist */; };
 		B729686515B6473300686B64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B729684815B6473300686B64 /* main.m */; };
 		B729686715B6473300686B64 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B729684C15B6473300686B64 /* RootViewController.m */; };
 		B729686815B6473300686B64 /* VPaddingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B729684E15B6473300686B64 /* VPaddingPageViewController.m */; };
 		B729686915B6473300686B64 /* VPagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B729685015B6473300686B64 /* VPagingViewController.m */; };
+		B72968A915B6DBB100686B64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B729683015B6473300686B64 /* InfoPlist.strings */; };
 		B7C454941578D025003FC537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C454931578D025003FC537 /* UIKit.framework */; };
 		B7C454961578D025003FC537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C454951578D025003FC537 /* Foundation.framework */; };
 		B7C454981578D025003FC537 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C454971578D025003FC537 /* CoreGraphics.framework */; };
@@ -232,7 +231,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B729685215B6473300686B64 /* InfoPlist.strings in Resources */,
 				B729685515B6473300686B64 /* 1.JPG in Resources */,
 				B729685615B6473300686B64 /* 10.JPG in Resources */,
 				B729685715B6473300686B64 /* 11.JPG in Resources */,
@@ -248,7 +246,7 @@
 				B729686115B6473300686B64 /* 7.JPG in Resources */,
 				B729686215B6473300686B64 /* 8.JPG in Resources */,
 				B729686315B6473300686B64 /* 9.JPG in Resources */,
-				B729686415B6473300686B64 /* InfinitePagingView-Info.plist in Resources */,
+				B72968A915B6DBB100686B64 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
