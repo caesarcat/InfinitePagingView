@@ -9,8 +9,15 @@
 #import "HPagingViewController.h"
 #import "InfinitePagingView.h"
 
+@interface HPagingViewController() <InfinitePagingViewDelegate>
+
+@end
 
 @implementation HPagingViewController
+{
+    UIPageControl *pageControl;
+    InfinitePagingView *pagingView;
+}
 
 - (void)viewDidLoad
 {
@@ -20,7 +27,8 @@
     self.view.backgroundColor = [UIColor blackColor];
     
     // pagingView
-    InfinitePagingView *pagingView = [[InfinitePagingView alloc] initWithFrame:CGRectMake(0.f, 0.f, self.view.frame.size.width, self.view.frame.size.height - naviBarHeight)];
+    pagingView = [[InfinitePagingView alloc] initWithFrame:CGRectMake(0.f, 0.f, self.view.frame.size.width, self.view.frame.size.height - naviBarHeight)];
+    pagingView.delegate = self;
     [self.view addSubview:pagingView];
     
     for (NSUInteger i = 1; i <= 15; ++i) {
@@ -39,6 +47,34 @@
     labelName.text = @"⇦ ⇨";
     labelName.font = [UIFont boldSystemFontOfSize:50.f];
     [self.view addSubview:labelName];
+    
+    UIButton *previousButton = [UIButton buttonWithType:101];
+    [previousButton setTitle:@"<" forState:UIControlStateNormal];
+    previousButton.frame = CGRectMake(0.f, 0.f, 30.f, 80.f);
+    previousButton.center = CGPointMake(previousButton.frame.size.width / 2.f, pagingView.center.y);
+    [previousButton addTarget:pagingView action:@selector(scrollToPreviousPage) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:previousButton];
+    
+    UIButton *nextButton = [UIButton buttonWithType:101];
+    [nextButton setTitle:@"<" forState:UIControlStateNormal];
+    nextButton.transform = CGAffineTransformScale(nextButton.transform, -1, 1);
+    nextButton.frame = CGRectMake(0.f, 0.f, 30.f, 80.f);
+    nextButton.center = CGPointMake(pagingView.frame.size.width - previousButton.frame.size.width / 2.f, pagingView.center.y);
+    [nextButton addTarget:pagingView action:@selector(scrollToNextPage) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:nextButton];
+    
+    // Page controller
+    pageControl = [[UIPageControl alloc] init];
+    pageControl.center = CGPointMake(self.view.center.x, pagingView.frame.size.height - 30.f);
+    pageControl.numberOfPages = 15;
+    [self.view addSubview:pageControl];
+}
+
+#pragma mark - InfinitePagingViewDelegate
+
+- (void)pagingView:(InfinitePagingView *)pagingView didEndDecelerating:(UIScrollView *)scrollView atPageIndex:(NSInteger)pageIndex
+{
+    pageControl.currentPage = pageIndex;
 }
 
 @end
