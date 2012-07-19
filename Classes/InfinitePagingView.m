@@ -75,13 +75,13 @@
 - (void)scrollToPreviousPage
 {
     [self scrollToDirection:1 animated:YES];
-    [self scrollViewDidEndDecelerating:_innerScrollView];
+    [self performSelector:@selector(scrollViewDidEndDecelerating:) withObject:_innerScrollView afterDelay:0.5f]; // delay until scroll animation end.
 }
 
 - (void)scrollToNextPage
 {
     [self scrollToDirection:-1 animated:YES];
-    [self scrollViewDidEndDecelerating:_innerScrollView];
+    [self performSelector:@selector(scrollViewDidEndDecelerating:) withObject:_innerScrollView afterDelay:0.5f]; // delay until scroll animation end.
 }
 
 #pragma mark - Private methods
@@ -122,10 +122,12 @@
 {
     CGRect adjustScrollRect;
     if (_scrollDirection == InfinitePagingViewHorizonScrollDirection) {
+        if (0 != fmodf(_innerScrollView.contentOffset.x, _pageSize.width)) return ;
         adjustScrollRect = CGRectMake(_innerScrollView.contentOffset.x - _innerScrollView.frame.size.width * moveDirection,
                                       _innerScrollView.contentOffset.y, 
                                       _innerScrollView.frame.size.width, _innerScrollView.frame.size.height);
     } else {
+        if (0 != fmodf(_innerScrollView.contentOffset.y, _pageSize.height)) return ;
         adjustScrollRect = CGRectMake(_innerScrollView.contentOffset.x,
                                       _innerScrollView.contentOffset.y - _innerScrollView.frame.size.height * moveDirection,
                                       _innerScrollView.frame.size.width, _innerScrollView.frame.size.height);
