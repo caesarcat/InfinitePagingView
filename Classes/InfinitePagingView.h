@@ -20,6 +20,20 @@
 
 #import <UIKit/UIKit.h>
 
+@class InfinitePagingView;
+
+/*!
+ @protocol InfinitePagingViewDelegate 
+ */
+@protocol InfinitePagingViewDelegate <NSObject>
+@optional
+- (void)pagingView:(InfinitePagingView *)pagingView willBeginDragging:(UIScrollView *)scrollView;
+- (void)pagingView:(InfinitePagingView *)pagingView didScroll:(UIScrollView *)scrollView;
+- (void)pagingView:(InfinitePagingView *)pagingView didEndDragging:(UIScrollView *)scrollView;
+- (void)pagingView:(InfinitePagingView *)pagingView willBeginDecelerating:(UIScrollView *)scrollView;
+- (void)pagingView:(InfinitePagingView *)pagingView didEndDecelerating:(UIScrollView *)scrollView atPageIndex:(NSInteger)pageIndex;
+@end
+
 /*!
  The direction of scroll.
  @typedef InfinitePagingViewScrollDirection
@@ -46,10 +60,32 @@ typedef enum {
 @property (nonatomic, assign) InfinitePagingViewScrollDirection scrollDirection;
 
 /*!
+ @var NSInteger index of page views.
+ */
+@property (nonatomic, assign) NSInteger currentPageIndex;
+
+/*!
+ @var InfinitePagingViewDelegate
+ */
+@property (nonatomic, assign) id<InfinitePagingViewDelegate> delegate;
+
+/*!
  Add a view object to inner scrollView view.
  @method addPageView:
  @param UIView *pageView
  */
 - (void)addPageView:(UIView *)pageView;
+
+/*!
+ Scroll to previous page.
+ @method scrollToPrevious
+ */
+- (void)scrollToPreviousPage;
+
+/*!
+ Scroll to next page.
+ @method scrollToPrevious
+ */
+- (void)scrollToNextPage;
 
 @end
