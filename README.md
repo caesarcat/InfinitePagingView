@@ -6,6 +6,12 @@ Overview
 --------
 InfinitePagingView is a subclass of UIView. It contains an endlessly scrollable UIScrollView.
 
+
+[CocoaPods]
+--------
+	pod `InfinitePagingView`
+
+
 Features
 --------
 - Endlessly scrollable to horizontal (or vertical) direction.
