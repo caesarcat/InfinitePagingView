@@ -84,6 +84,11 @@
     [self performSelector:@selector(scrollViewDidEndDecelerating:) withObject:_innerScrollView afterDelay:0.5f]; // delay until scroll animation end.
 }
 
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    [self layoutPages];
+}
+
 #pragma mark - Private methods
 
 - (void)layoutPages
