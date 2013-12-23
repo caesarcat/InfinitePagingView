@@ -34,7 +34,7 @@
     }
     
     // label
-    UILabel *labelName = [[UILabel alloc] initWithFrame:CGRectMake(pagingView.frame.origin.x - 110.f / 2, self.view.center.y - naviBarHeight - 110.f / 2, 55.f, 110.f)];
+    UILabel *labelName = [[UILabel alloc] initWithFrame:CGRectMake(pagingView.frame.origin.x - 110.f / 2, self.view.center.y - naviBarHeight - 110.f / 2, 65.f, 130.f)];
     labelName.clipsToBounds = NO;
     labelName.textAlignment = UITextAlignmentCenter;
     labelName.numberOfLines = 2;
@@ -43,6 +43,11 @@
     labelName.text = @"⇧\n⇩";
     labelName.font = [UIFont boldSystemFontOfSize:50.f];
     [self.view addSubview:labelName];
+
+    // for ios 7
+    if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)]) {
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    }
 }
 
 @end

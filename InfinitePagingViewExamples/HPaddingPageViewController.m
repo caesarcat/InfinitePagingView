@@ -34,13 +34,18 @@
     }
     
     // label
-    UILabel *labelName = [[UILabel alloc] initWithFrame:CGRectMake(0.f, pagingView.frame.origin.y - 50.f, self.view.frame.size.width, 50.f)];
+    UILabel *labelName = [[UILabel alloc] initWithFrame:CGRectMake(0.f, pagingView.frame.origin.y - 50.f, self.view.frame.size.width, 65.f)];
     labelName.textAlignment = UITextAlignmentCenter;
     labelName.textColor = [UIColor whiteColor];
     labelName.backgroundColor = [UIColor clearColor];
     labelName.text = @"⇦ ⇨";
     labelName.font = [UIFont boldSystemFontOfSize:50.f];
     [self.view addSubview:labelName];
+
+    // for ios 7
+    if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)]) {
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    }
 }
 
 @end

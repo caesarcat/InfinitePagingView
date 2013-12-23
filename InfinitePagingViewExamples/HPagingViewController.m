@@ -68,6 +68,11 @@
     pageControl.center = CGPointMake(self.view.center.x, pagingView.frame.size.height - 30.f);
     pageControl.numberOfPages = 15;
     [self.view addSubview:pageControl];
+
+    // for ios 7
+    if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)]) {
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    }
 }
 
 #pragma mark - InfinitePagingViewDelegate
