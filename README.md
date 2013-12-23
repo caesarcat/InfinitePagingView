@@ -122,6 +122,5 @@ Tells the delegate that the scroll view has ended decelerating the scrolling mov
 
 License
 -------
-MIT License.
+This software is released under the MIT License, see LICENSE.txt.
 
-See LICENSE.txt for more information.
