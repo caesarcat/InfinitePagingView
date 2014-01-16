@@ -58,6 +58,7 @@
         _innerScrollView.scrollEnabled = YES;
         _innerScrollView.showsHorizontalScrollIndicator = NO;
         _innerScrollView.showsVerticalScrollIndicator = NO;
+				_innerScrollView.scrollsToTop = NO;
         _scrollDirection = InfinitePagingViewHorizonScrollDirection;
         [self addSubview:_innerScrollView];
         self.pageSize = frame.size;
