@@ -193,7 +193,24 @@
     }
     
     NSInteger moveDirection = pageIndex - _lastPageIndex;
+    
+    //NSLog(@"pageIndex: %i %i %i",moveDirection, pageIndex, _lastPageIndex);
+    //fails when we have : 0 1 1        2 Views
+    //working good with:  1 2 1         3 Views
+    
     if (moveDirection == 0) {
+        //ok issue found !!!
+        //when we have less than 3 views moveDirection is 0
+        //oki let´s fix it.
+        
+        moveDirection = 1;
+        
+        for (NSUInteger i = 0; i < abs((int)moveDirection); ++i) {
+            UIView *leftView = [_pageViews objectAtIndex:0];
+            [_pageViews removeObjectAtIndex:0];
+            [_pageViews insertObject:leftView atIndex:_pageViews.count];
+        }
+        
         return;
     } else if (moveDirection > 0.f) {
         for (NSUInteger i = 0; i < abs(moveDirection); ++i) {
