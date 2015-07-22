@@ -50,7 +50,10 @@
         _currentPageIndex = 0;
         self.userInteractionEnabled = YES;
         self.clipsToBounds = YES;
-        _innerScrollView = [[UIScrollView alloc] initWithFrame:frame];
+        CGRect bounds = CGRectZero;
+        bounds.size = frame.size;
+        _innerScrollView = [[UIScrollView alloc] initWithFrame:bounds];
+        _innerScrollView.autoresizingMask = (UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight);
         _innerScrollView.delegate = self;
         _innerScrollView.backgroundColor = [UIColor clearColor];
         _innerScrollView.clipsToBounds = NO;
