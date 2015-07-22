@@ -65,6 +65,16 @@
     }
 }
 
+- (void)dealloc
+{
+    /**
+        nil delegate in ARC to prevent Core Animation Retain which lead to crash if view
+        that use InfinitePagingView deallocates while animating to next page.
+     */
+    
+    _innerScrollView.delegate = nil;
+}
+
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event
 {
     UIView *hitView = [super hitTest:point withEvent:event];
